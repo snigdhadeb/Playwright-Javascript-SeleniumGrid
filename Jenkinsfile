@@ -8,6 +8,9 @@ pipeline {
       }
     }
     stage('test') {
+      environment {
+        SELENIUM_REMOTE_URL = 'http://localhost:4444/wd/hub'
+      }
       steps {
         bat 'npx playwright test'
       }
