@@ -11,7 +11,7 @@ Playwright Automated Test cases integrated with Selenium Grid Docker
   <li> Once the containers are up, navigate to localhost:4444 and check selenium grid UI is showing or not
   <li> Now, Build a Job in jenkins and connect the git repo
   <li> Monitor your test cases being executed through the Selenium Grid sessions VNC viewer
-  <li> Password for the VNC player is:
+  <li> Password for the VNC viewer is:
   
   ```
   secret
