@@ -5,3 +5,6 @@ node_modules/
 /allure-report/
 /allure-results/
 /videos/
+/test-results/
+/playwright-report/
+/playwright/.cache/
